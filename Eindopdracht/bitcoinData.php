@@ -37,7 +37,7 @@ $buttons = array(420,69,3.14);
 function calculateBitcoinAmount()
 {
     if (isset($_GET['euro'])) {
-        $euro = (int)$_GET['euro']; //Dit blokje code (if-statement) kun je laten staan.
+        $euro = (float)$_GET['euro']; //Dit blokje code (if-statement) kun je laten staan.
     }
 
     //SCHRIJF JE CODE.

@@ -56,7 +56,7 @@
                         <?php foreach ($transactions as $key => $transaction) : ?>
                             <?php $total_bitcoin_amount += $transaction[2]; ?>
                             <tr>
-                                <td><?php echo $key  ?></td>
+                                <td><?php echo $key + 1  ?></td>
                                 <td><?php echo $transaction[0]; ?></td>
                                 <td><?php echo $transaction[1]; ?></td>
                                 <td><?php echo number_format($transaction[2], 4) ?></td>
