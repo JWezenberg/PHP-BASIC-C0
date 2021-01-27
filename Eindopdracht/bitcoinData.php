@@ -41,7 +41,7 @@ function calculateBitcoinAmount()
     }
 
     //SCHRIJF JE CODE.
-$BCEuro = getBitcoinPrice() / .........;
+return $euro / getBitcoinPrice();
 
 
 }
@@ -80,7 +80,7 @@ if (isset($_GET['euro'])) {
      * Je voegt een bitcoinprijs toe, de prijs in euro's en het aantal gekochte bitcoins.
      */
 
-    array_push($transactions, [getBitcoinPrice(),$BCEuro,calculateBitcoinAmount()]);
+    array_push($transactions, [getBitcoinPrice(),$euro,calculateBitcoinAmount()]);
 }
 
 
